@@ -602,8 +602,14 @@ margin-bottom: 30px;
 }
 
 /*------приєднуйтесь footer-------*/
-
+.footer-container{
+display: flex;
+align-items: baseline;
+}
 .social-footer{
+  width: 206px;
+  height: 80px;
+  margin-right: 70px;
 }
 
 .social-footer-title{
@@ -618,6 +624,9 @@ font-family: 'Roboto';
 }
 .social-footer-list{
 display: flex;
+justify-content: space-between;
+cursor: pointer;
+
 }
 
 .social-footer-item{
