@@ -609,10 +609,12 @@ align-items: baseline;
 .social-footer{
   width: 206px;
   height: 80px;
-  margin-right: 70px;
+  margin-left: 70px;
 }
 
 .social-footer-title{
+  margin-bottom: 20px;
+
 font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
@@ -630,10 +632,18 @@ cursor: pointer;
 }
 
 .social-footer-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 
 }
-.social-footer-link{
-
+.social-footer-link:hover .social-footer-item,
+.social-footer-link:focus .social-footer-item{
+fill: var(--accent-text-color);
 }
 .social-footer-icon{
 width: 20px;
